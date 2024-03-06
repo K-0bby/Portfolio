@@ -1,0 +1,138 @@
+.ContactPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.ContactPage h2 {
+  margin: 10px 0 10px;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+}
+.ContactPage p {
+  text-align: center;
+  font-size: 16px;
+  color: var(--grayText);
+}
+.formPage {
+  margin: 20px 0;
+  box-shadow: 0px 0px 4px #474646;
+  border: none;
+  border-radius: 10px;
+  background: linear-gradient(#e6850eef, rgba(62, 62, 62, 0.851));
+}
+.formPage form {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  padding: 25px 20px;
+  gap: 10px;
+  border: none;
+  border-radius: 10px;
+}
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+.form-field label {
+  margin: 0 5px 5px;
+  font-size: 16px;
+  font-weight: 700;
+}
+.form-field input {
+  height: 60px;
+  padding: 0 20px;
+  background-color: #a3a2a2;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+.form-field ::-webkit-input-placeholder {
+  color: var(--grayText);
+  font-size: 16px;
+}
+.form-field textarea {
+  resize: none;
+  background-color: #a3a2a2;
+  padding: 10px 10px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+}
+form .submitBtn {
+  width: 30%;
+  padding: 10px 10px;
+  margin: 0 320px;
+  font-size: 16px;
+  font-weight: 800;
+  background-color: #474646;
+  color: var(--white);
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+form .submitBtn:hover {
+  background-color: #656363;
+}
+.footer {
+  margin: 10px 0;
+}
+.footer p {
+  color: #171717;
+  font-weight: 600;
+}
+/* .ContactPage .scrollUp a {
+  position: absolute;
+  bottom: -1600px;
+  right: 30px;
+  padding: 10px 10px;
+  z-index: 1;
+  border-radius: 50px;
+  border: none;
+  background: linear-gradient(#e6850eb1, rgba(237, 170, 3, 0.286));
+  color: var(--grayText);
+  box-shadow: 0 0 4px #474646;
+  cursor: pointer;
+} */
+
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .ContactPage {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .ContactPage h2 {
+    font-size: 20px;
+  }
+  .formPage form {
+    padding: 20px 120px;
+  }
+  form .submitBtn {
+    margin: 0 auto;
+  }
+}
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .ContactPage {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .ContactPage h2 {
+    font-size: 20px;
+  }
+  .formPage form {
+    padding: 25px 70px;
+  }
+  form .submitBtn {
+    margin: 0 120px;
+  }
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .ContactPage {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .formPage form {
+    padding: 25px auto;
+  }
+}
