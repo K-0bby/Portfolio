@@ -39,6 +39,11 @@ section {
     padding: 0 15px;
   }
 }
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  body {
+    padding: 0 20px;
+  }
+}
 /* 
 @media (min-width: 320px) and @media (max-width: 480px)
 @media (min-width: 481px) and @media (max-width: 768px)
