@@ -123,6 +123,7 @@
   .about .text {
     font-size: 14px;
   }
+
   .about-container .about-me p {
     font-size: 12px;
   }
@@ -162,7 +163,7 @@
     height: auto;
   }
   .skills-container .skillsIcon {
-    grid-template-columns: repeat(3, minmax(100px, 1fr));
+    grid-template-rows: repeat(3, minmax(100px, 1fr));
   }
   .skills-container h3 {
     margin: 10px 10px;
