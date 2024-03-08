@@ -20,7 +20,9 @@
   box-shadow: 0px 0px 4px #474646;
   border: none;
   border-radius: 10px;
-  background: linear-gradient(#e6850eef, rgba(62, 62, 62, 0.851));
+  background: linear-gradient(
+    rgba(10, 10, 10, 0.945) rgba(177, 174, 174, 0.851)
+  );
 }
 .formPage form {
   display: flex;
@@ -30,6 +32,7 @@
   gap: 10px;
   border: none;
   border-radius: 10px;
+  background-color: var(--white);
 }
 .form-field {
   display: flex;
@@ -43,18 +46,18 @@
 .form-field input {
   height: 60px;
   padding: 0 20px;
-  background-color: #a3a2a2;
+  background-color: #fff8d6;
   border: none;
   border-radius: 5px;
   outline: none;
 }
 .form-field ::-webkit-input-placeholder {
-  color: var(--grayText);
+  color: var(--gray);
   font-size: 16px;
 }
 .form-field textarea {
   resize: none;
-  background-color: #a3a2a2;
+  background-color: #fff8d6;
   padding: 10px 10px;
   border: none;
   border-radius: 5px;
@@ -66,15 +69,16 @@ form .submitBtn {
   margin: 0 320px;
   font-size: 16px;
   font-weight: 800;
-  background-color: #474646;
-  color: var(--white);
+  /* background-color: var(--orange); */
+  background: linear-gradient(45deg, #fdc50f 26.71%, #ffa600d3 99.36%);
+  color: var(--black);
   outline: none;
   border: none;
   border-radius: 5px;
   cursor: pointer;
 }
 form .submitBtn:hover {
-  background-color: #656363;
+  background-color: darkorange;
 }
 .footer {
   margin: 10px 0;
@@ -83,19 +87,6 @@ form .submitBtn:hover {
   color: #171717;
   font-weight: 600;
 }
-/* .ContactPage .scrollUp a {
-  position: absolute;
-  bottom: -1600px;
-  right: 30px;
-  padding: 10px 10px;
-  z-index: 1;
-  border-radius: 50px;
-  border: none;
-  background: linear-gradient(#e6850eb1, rgba(237, 170, 3, 0.286));
-  color: var(--grayText);
-  box-shadow: 0 0 4px #474646;
-  cursor: pointer;
-} */
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .ContactPage {
@@ -105,8 +96,12 @@ form .submitBtn:hover {
   .ContactPage h2 {
     font-size: 20px;
   }
+  .formPage {
+    width: auto;
+  }
   .formPage form {
-    padding: 20px 120px;
+    /* padding: 20px auto; */
+    width: auto;
   }
   form .submitBtn {
     margin: 0 auto;

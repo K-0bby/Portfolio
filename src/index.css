@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
 
 :root {
-  --primaryColor: #ffa600c0;
+  --primaryColor: #fca61f;
   --orange: #ffa600;
   --black: #030405;
   --gray: #63697a;
   --grayText: #4d4e52;
   --white: #fff;
   --bgWhite: #f6f6f6;
-  --blueText: #0000e6;
+  --blueCard: #ddf8fe;
+  --purple: rgb(238 210 255);
   --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
@@ -22,13 +23,12 @@
 }
 
 body {
-  background-image: url("./Assets/Bg5.jpg");
+  background-image: url(./Assets/purpleblur.png);
   background-position: center;
   background-size: cover;
-  background-repeat: no-repeat;
-  object-fit: cover;
+  background-color: #f8f7f1;
   padding: 0 50px;
-  max-width: 1440px;
+  max-width: 100%;
 }
 section {
   max-width: 1440px;
