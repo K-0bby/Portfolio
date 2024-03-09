@@ -69,8 +69,7 @@ form .submitBtn {
   margin: 0 320px;
   font-size: 16px;
   font-weight: 800;
-  /* background-color: var(--orange); */
-  background: linear-gradient(45deg, #fdc50f 26.71%, #ffa600d3 99.36%);
+  background: linear-gradient(45deg, #f5c32c 26.71%, #fca61f 99.36%);
   color: var(--black);
   outline: none;
   border: none;
@@ -97,10 +96,10 @@ form .submitBtn:hover {
     font-size: 20px;
   }
   .formPage {
-    width: auto;
+    width: min(350px, 100%);
   }
   .formPage form {
-    /* padding: 20px auto; */
+    padding: 20px auto;
     width: auto;
   }
   form .submitBtn {
@@ -115,8 +114,11 @@ form .submitBtn:hover {
   .ContactPage h2 {
     font-size: 20px;
   }
+  .formPage {
+    width: min(430px, 100%);
+  }
   .formPage form {
-    padding: 25px 70px;
+    width: auto;
   }
   form .submitBtn {
     margin: 0 120px;
