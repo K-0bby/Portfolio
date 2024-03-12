@@ -20,7 +20,6 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  flex-wrap: wrap;
 }
 .projectContainer .gallery {
   display: flex;
@@ -38,7 +37,7 @@
   box-shadow: 0 0 4px #474646;
 }
 .project-box img {
-  width: 400px;
+  width: 350px;
   transition: 0.5s ease;
 }
 .project-box:hover img {
