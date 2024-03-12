@@ -34,6 +34,14 @@ const Projects = () => {
               </div>
           </div>
 
+          <div className="project-box">
+            <img src={nersk} alt="" />
+              <div className="project-layer">
+                <h4>NERSK</h4>
+                <p>Lorem ipsum dolor sit.</p>
+                <a href="/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLinkAlt} style={{ fontSize: '1.5em' }}/></a>
+              </div>
+          </div>
 
           <div className="project-box">
             <img src={rent} alt="" />
@@ -44,14 +52,6 @@ const Projects = () => {
               </div>
           </div>
 
-          <div className="project-box">
-            <img src={nersk} alt="" />
-              <div className="project-layer">
-                <h4>NERSK</h4>
-                <p>Lorem ipsum dolor sit.</p>
-                <a href="https://renthomes.netlify.app/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLinkAlt} style={{ fontSize: '1.5em' }}/></a>
-              </div>
-          </div>
         </div>
       </div>
     </section>

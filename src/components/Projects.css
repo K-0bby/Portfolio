@@ -25,6 +25,7 @@
 .projectContainer .gallery {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   padding: 10px 10px;
   /* flex: 1 0 100px; */
   gap: 30px;
