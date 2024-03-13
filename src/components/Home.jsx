@@ -19,7 +19,7 @@ const Home = () => {
         </p>
         <SocialMedia />
         <div className="buttons">
-          <a href="https://drive.google.com/file/d/1m-IAv2yghKPPmqCUek8dCiYUp2NcdV8b/view?usp=sharing" target='_blank' rel='noreferrer' className="h-button">Download CV <FontAwesomeIcon icon={faDownload} /></a>
+          <a href="https://drive.google.com/file/d/1m-IAv2yghKPPmqCUek8dCiYUp2NcdV8b/view?usp=sharing" download={true} target='_blank' rel='noreferrer' className="h-button">Download CV <FontAwesomeIcon icon={faDownload} /></a>
           {/* <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} className="home-button">Hire Me</Link> */}
         </div>
       </div>
