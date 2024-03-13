@@ -19,8 +19,8 @@ const Projects = () => {
             <img src={nersk} alt="" />
               <div className="project-layer">
                 <h4>NERSK</h4>
-                <p>Lorem ipsum dolor sit.</p>
-                <a href="/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLinkAlt} style={{ fontSize: '1.5em' }}/></a>
+                <p>A startup tech company</p>
+                <a href="https://nersk-1-0.vercel.app/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLinkAlt} style={{ fontSize: '1.5em' }}/></a>
               </div>
           </div>
 
@@ -28,7 +28,7 @@ const Projects = () => {
             <img src={event} alt="" />
               <div className="project-layer">
                 <h4>EVENT NATION</h4>
-                <p>Lorem ipsum dolor sit.</p>
+                <p>An Event website for booking events</p>
                 <a href="https://eventnations.netlify.app/#" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLinkAlt} style={{ fontSize: '1.5em' }} /></a>
               </div>
           </div>
@@ -38,7 +38,7 @@ const Projects = () => {
             <img src={cake} alt="" />
               <div className="project-layer">
                 <h4>CAKE DELIGHT</h4>
-                <p>Lorem ipsum dolor sit.</p>
+                <p>A cake UI website</p>
                 <a href="https://cakedelight.netlify.app/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLinkAlt} style={{ fontSize: '1.5em' }}/></a>
               </div>
           </div>
@@ -48,7 +48,7 @@ const Projects = () => {
             <img src={rent} alt="" />
               <div className="project-layer">
                 <h4>RENT HOMES</h4>
-                <p>Lorem ipsum dolor sit.</p>
+                <p>A rent homes UI</p>
                 <a href="https://renthomes.netlify.app/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLinkAlt} style={{ fontSize: '1.5em' }}/></a>
               </div>
           </div>
