@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-scroll';
 import { FaBars, FaTimes } from 'react-icons/fa';
+import kobby from '../Assets/images/me(2).png'
 import './Navbar.css'
 
 
@@ -27,10 +28,13 @@ const Navbar = () => {
     return (
         <div className={color ? 'header header-bg' : 'header'}>
             <nav className='navbar'>
-                <Link to="home" spy={true} smooth={true} offset={-100} duration={500} className='logo'>
-                <h1>Gideon</h1>
-                </Link>
-
+                <div className="navbar-logo">
+                    <img src={kobby} alt="Gideon" />
+                    <Link to="home" spy={true} smooth={true} offset={-100} duration={500} className='logo'>
+                    <h1>Gideon</h1>
+                    </Link>
+                </div>
+               
                 <ul className={click ? "nav-menu active" : "nav-menu"}>
                     <li className='nav-item'>
                         <Link to="home" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Home</Link>
@@ -41,10 +45,13 @@ const Navbar = () => {
                     <li className='nav-item'>
                          <Link to="projects" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Projects</Link>
                     </li>
+                    <li className='nav-item'>
+                         <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Contact Me</Link>
+                    </li>
                 </ul>
-                <div className="button">
+                {/* <div className="button">
                   <Link to="contact" spy={true} smooth={true} offset={-100} duration={500} onClick={closeMenu}>Contact Me</Link>
-                </div>
+                </div> */}
                 <div className='hamburger' onClick={handleClick}>
                     {click ? (<FaTimes size={30} style={{ color: '#4d4e52' }} />)
                         : (<FaBars size={30} style={{ color: '#4d4e52' }} />)}

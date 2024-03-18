@@ -4,8 +4,9 @@
 }
 .projectsPage h3 {
   margin: 10px 0 10px;
-  font-size: 26px;
+  font-size: 40px;
   font-weight: 800;
+  text-transform: uppercase;
 }
 .projectsPage h3 span {
   color: var(--orange);
@@ -23,17 +24,17 @@
 }
 .projectContainer .gallery {
   display: flex;
+  justify-content: center;
   flex-direction: row;
   flex-wrap: wrap;
   padding: 10px 10px;
-  /* flex: 1 0 100px; */
-  gap: 30px;
+  gap: 40px;
 }
 .gallery .project-box {
   position: relative;
   display: flex;
   overflow: hidden;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 0 0 4px #474646;
 }
 .project-box img {

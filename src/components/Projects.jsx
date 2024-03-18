@@ -51,7 +51,7 @@ const Projects = () => {
                 <p>A rent homes UI</p>
                 <a href="https://renthomes.netlify.app/" target="_blank" rel="noopener noreferrer"><FontAwesomeIcon icon={faExternalLinkAlt} style={{ fontSize: '1.5em' }}/></a>
               </div>
-          </div>
+          </div> 
 
         </div>
       </div>

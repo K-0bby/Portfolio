@@ -4,8 +4,9 @@
 .about h2 {
   margin: 10px 0 10px;
   text-align: center;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 800;
+  text-transform: uppercase;
 }
 .about h2 span {
   color: var(--orange);
@@ -27,14 +28,17 @@
   font-size: 16px;
 }
 .about-container {
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 20px 0 0;
+  margin: 20px 0 0; */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 50px;
 }
 .about-me {
   margin: 20px 0;
-  width: 50%;
+  width: 100%;
   height: auto;
 }
 .about-me h3,
@@ -42,6 +46,7 @@
   margin: 0 0 10px;
   font-size: 28px;
   font-weight: 800;
+  text-transform: uppercase;
 }
 .about-me h3 span,
 .skills-container h3 span {
@@ -61,10 +66,10 @@
   margin: 10px 0;
   height: auto;
   color: var(--white);
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 700;
   border: none;
-  border-radius: 20px;
+  border-radius: 10px;
   background: linear-gradient(45deg, #fdc50f 26.71%, #ffa600d3 99.36%);
   box-shadow: 0px 0px 4px 4px rgba(251, 159, 40, 0.078);
   cursor: pointer;
@@ -74,22 +79,24 @@
 }
 .skills-container {
   position: relative;
-  top: -15px;
-  left: -10px;
+  top: 0px;
+  left: 0px;
+  margin: 20px 0;
 }
 .skillsIcon {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(100px, 1fr));
-  align-items: center;
+  /* display: grid;
+  grid-template-columns: repeat(4, minmax(100px, 1fr)); */
+  display: flex;
+  flex-wrap: wrap;
 }
 .skillsIcon img {
   margin: 10px 10px;
   padding: 5px 5px;
-  width: 55px;
-  height: 55px;
+  width: 65px;
+  height: 65px;
   background-color: var(--white);
   border: none;
-  border-radius: 15px;
+  border-radius: 10px;
   object-fit: cover;
   box-shadow: 0 4px 4px rgba(0, 0, 0, 0.202);
 }
@@ -107,6 +114,7 @@
     font-size: 12px;
   }
   .about-container {
+    display: flex;
     flex-direction: column;
     max-height: auto;
     max-width: 100%;
@@ -149,6 +157,7 @@
     font-size: 14px;
   }
   .about-container {
+    display: flex;
     flex-direction: column;
     max-height: auto;
     max-width: 100%;

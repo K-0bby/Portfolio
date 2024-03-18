@@ -7,8 +7,8 @@ import react from '../Assets/skills/react.svg';
 import tailwindCSS from '../Assets/skills/tailwind-css.svg';
 import bootstrap from '../Assets/skills/bootstrap.svg';
 import git from '../Assets/skills/git.svg';
-import cplus from '../Assets/skills/c++.svg';
-import c from '../Assets/skills/c copy.svg';
+// import cplus from '../Assets/skills/c++.svg';
+// import c from '../Assets/skills/c copy.svg';
 import './About.css';
 
 const About = () => {
@@ -27,20 +27,20 @@ const About = () => {
             </div>
 
           </div>
-            <div className="skills-container">
-              <h3>My <span>Skills</span></h3>
-              <div className="skillsIcon">
-              <img src={html} alt="" />
-              <img src={css} alt="" />
-              <img src={JavaScript} alt="" />
-              <img src={react} alt="" />
-              <img src={tailwindCSS} alt="" />
-              <img src={bootstrap} alt="" />
-              <img src={git} alt="" />
-              <img src={cplus} alt="" />
-              <img src={c} alt="" />
-              </div>
+          <div className="skills-container">
+            <h3>My <span>Skills</span></h3>
+            <div className="skillsIcon">
+              <img src={html} alt="HTML" />
+              <img src={css} alt="CSS" />
+              <img src={JavaScript} alt="JAVASCRIPT" />
+              <img src={react} alt="REACT" />
+              <img src={tailwindCSS} alt="TAILWNDCSS" />
+              <img src={bootstrap} alt="BOOTSTRAP" />
+              <img src={git} alt="GIT" />
+              {/* <img src={cplus} alt="" />
+              <img src={c} alt="" /> */}
             </div>
+          </div>
         </div>
     </section>
   )
