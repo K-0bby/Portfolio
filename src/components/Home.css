@@ -27,7 +27,7 @@
   color: var(--primaryColor);
 }
 .home-container h3 {
-  font-size: 26px;
+  font-size: 28px;
 }
 .home-container p {
   margin: 15px 0px;
@@ -93,9 +93,6 @@
 } */
 
 .social-icons {
-  /* position: absolute;
-  top: 50%;
-  transform: translateY(50%); */
   display: flex;
   gap: 40px;
   margin: 15px 10px;
@@ -151,7 +148,7 @@
   .homePage {
     max-width: 100%;
     max-height: auto;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .homePage img {
     width: 100px;
@@ -180,7 +177,7 @@
 @media screen and (min-width: 400px) and (max-width: 768px) {
   .homePage {
     max-width: 100%;
-    flex-direction: column-reverse;
+    flex-direction: column;
   }
   .homePage img {
     width: 150px;

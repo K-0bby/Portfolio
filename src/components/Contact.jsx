@@ -26,7 +26,7 @@ const Contact = () => {
             </form>
         </div>
         <div className="footer">
-            <p>Copyright &copy; 2024 by Gideon | All Rights Reserved</p>
+            <p>Copyright &copy; 2024 by Gideon Korbla Hoenyefia | All Rights Reserved</p>
         </div>
         {/* <div className="scrollUp">
             <a href="#home"><FontAwesomeIcon icon={faArrowUp} /></a>

@@ -100,7 +100,7 @@ form .submitBtn:hover {
     font-size: 20px;
   }
   .formPage {
-    width: min(350px, 100%);
+    width: min(320px, 100%);
   }
   .formPage form {
     padding: 20px auto;

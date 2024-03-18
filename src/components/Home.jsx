@@ -4,24 +4,23 @@ import React from 'react';
 import SocialMedia from './SocialMedia';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faDownload } from '@fortawesome/free-solid-svg-icons';
-import {useTypewriter, Cursor} from 'react-simple-typewriter';
+import Typewriter from 'typewriter-effect';
 import './Home.css';
 
 const Home = () => {
-  const {text} = useTypewriter({
-    words: ['Frontend Developer', 'UI/UX Designer'],
-    loop: true,
-    typeSpeed: 120,
-    deleteSpeed: 80,
-  });
 
   return (
     <section className='homePage' id='home'>
       <div className="home-container">
         <h2>Hi 👋, I am <span>Gideon Korbla Hoenyefia</span></h2>
         <h3>
-          <span style={{color: '#000'}}>{text}</span>
-          <span style={{color: '#fca61f'}}><Cursor/> </span>
+          <Typewriter
+            options={{
+            strings: ['Frontend Developer', 'UI/UX Designer'],
+            autoStart: true,
+            loop: true,
+            }}
+          />
         </h3>
         <p>My expertise is creating contemporary and engaging websites and web apps that 
           enhance customer engagement through user-friendly designs that combine
