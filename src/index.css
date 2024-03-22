@@ -14,8 +14,8 @@
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 }
 *,
-*::before,
-*::after {
+*::after,
+*::before {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
