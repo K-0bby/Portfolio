@@ -108,7 +108,7 @@
 }
 
 .mouse {
-  width: 25px;
+  width: 30px;
   height: 45px;
   border: 2px solid var(--primaryColor);
   border-radius: 60px;
@@ -172,6 +172,9 @@
     height: auto;
     font-size: 12px;
   }
+  .mouse {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 400px) and (max-width: 768px) {
@@ -196,5 +199,8 @@
     margin: 10px 0;
     font-size: 14px;
     width: 100%;
+  }
+  .mouse {
+    display: none;
   }
 }
