@@ -50,7 +50,7 @@
 .form-field input {
   height: 60px;
   padding: 0 20px;
-  background-color: #fff8d6;
+  background-color: #fdc50fc6;
   border: none;
   border-radius: 5px;
   outline: none;
@@ -61,7 +61,7 @@
 }
 .form-field textarea {
   resize: none;
-  background-color: #fff8d6;
+  background-color: #fdc50fc6;
   padding: 10px 10px;
   border: none;
   border-radius: 5px;
@@ -73,7 +73,7 @@ form .submitBtn {
   margin: 0 320px;
   font-size: 16px;
   font-weight: 800;
-  background: linear-gradient(45deg, #f5c32c 26.71%, #fca61f 99.36%);
+  background: linear-gradient(45deg, #fdc50f 26.71%, #ffa600d3 99.36%);
   color: var(--black);
   outline: none;
   border: none;
@@ -81,7 +81,9 @@ form .submitBtn {
   cursor: pointer;
 }
 form .submitBtn:hover {
-  background-color: darkorange;
+  border: 1px solid var(--primaryColor);
+  background: #f8f7f1;
+  color: var(--primaryColor);
 }
 .footer {
   margin: 10px 0;

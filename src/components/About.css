@@ -66,7 +66,7 @@
   padding: 10px 20px;
   margin: 10px 0;
   height: auto;
-  color: var(--white);
+  color: var(--black);
   font-size: 18px;
   font-weight: 700;
   border: none;
@@ -76,7 +76,9 @@
   cursor: pointer;
 }
 .about-me a:hover {
-  background-color: darkorange;
+  border: 1px solid var(--primaryColor);
+  background: #f8f7f1;
+  color: var(--primaryColor);
 }
 .skills-container {
   position: relative;
